@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    width: 700px;
+    margin: 0 auto;
+    
+}
+table{
+
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    font-size: 18px;
+   
+}
+thead tr td{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+.negrito{
+    font-weight: bold;
+
+}
+
+#period{
+    border-top: 3px solid rgb(155, 154, 154);
+    background-color:rgba(192, 189, 189, 0.541);
+}
+#android{
+    border-top: 3px solid rgb(138, 204, 38);
+    background-color: rgba(172, 255, 47, 0.507);
+}
+#ios{
+    border-top: 3px solid rgb(0, 202, 202);
+    background-color:rgba(0, 255, 255, 0.493);
+}
+#windows{
+    
+    border-top: 3px solid rgb(110, 34, 182);
+    background-color:rgba(137, 43, 226, 0.521);
+}
+#others{
+    border-top: 3px solid rgb(197, 128, 0);
+    background-color: rgba(255, 166, 0, 0.527);
+}
+tbody tr td{
+    padding: 15px;
+    
+    
+}

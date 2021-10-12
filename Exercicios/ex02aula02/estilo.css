@@ -1,0 +1,59 @@
+.modelo1{
+    width: 600px;
+    height: 500px;
+    background-color: #964b00;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 20px;
+
+}
+h1{
+    padding-bottom: 10px;
+    
+    border-bottom: 3px solid black;
+}
+.titulo2{
+    font-size: 13px;
+}
+div{
+    padding: 10px;
+    margin: 0 auto;
+    width: 480px;
+    text-align: left;
+    display: flex;
+}
+.rotulos{
+
+    width: 160px;
+    margin: 0 auto;
+    text-align: right;
+}
+.entrada{
+    box-shadow: black 0.1em 0.1em 0.2em;
+    border-radius: 7px;
+    border: none;
+    background-color: burlywood;
+    width: 630px;
+    height: 40px;
+    text-align: left;
+    align-items: left;
+}
+
+#buto{
+    padding-top: none;
+    width: 260px;
+    text-align: left;
+    display:inline-block;
+}
+.botao{
+    background-color: black;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
