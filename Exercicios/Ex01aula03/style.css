@@ -1,0 +1,11 @@
+#container{
+    border: 22px double red;
+    font-family: Verdana;
+    font-size: 18pt;
+    width: 400px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.negrito{
+    font-weight: bold;
+}

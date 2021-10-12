@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+        <div>
+            <label for="val1" class="negrito" class="Box">Valor 1: </label>
+            <input type="text" id="val1" ><br>
+            <label for="val1" class="negrito">Valor 2: </label>
+            <input type="text" id="val2"><br>
+        </div>
+            <label class="negrito">Opções:</label><br>
+        <div>
+            <input type="radio" id="soma" name="calc" value="soma">
+            <label for="soma">SOMA</label><br>
+        </div>
+        <div>
+            <input type="radio" id="subtra" name="calc" value="sub">
+            <label for="subtra">SUBTRAÇÃO</label>
+        </div>
+        <div>
+            <input type="radio" id="multi" name="calc" value="mult">
+            <label for="multi">MULTIPLICAÇÃO</label><br>
+        </div>
+        <div>
+            <input type="radio" id="divi" name="calc" value="divi">
+            <label for="divi">DIVISÃO</label><br>
+        </div>
+        <div>
+            <label for="result" class="negrito">Resultado: </label><br>
+            <input type="text" id="result"><br>
+            <button type="button" onclick="calca()">Calcular</button>
+        </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
